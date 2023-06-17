@@ -18,9 +18,11 @@ const Countries = () => {
             }
             {
                 countries.map(country => <Country 
-                    name={country.name.common}
-                    area={country.area}
-                    population={country.population}
+                    country = {country}
+                    // name={country.name.common}
+                    // area={country.area}
+                    // region={country.region}
+                    // population={country.population}
                     ></Country>)
             }
         </div>
